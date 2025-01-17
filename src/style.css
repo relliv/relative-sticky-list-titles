@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+section {
+  margin: 20px;
+  border: 1px dashed gray;
+  overflow-y: auto;
+  height: 80vh;
+  position: relative;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  padding: 3px;
+}
+
+h1,
+h2 {
+  background-color: #ffe570;
+  border: 1px solid gray;
+  padding: 10px;
+  transition: all 0.3 ease-in-out;
+}
+
+.fixed-title {
+  position: sticky;
+  top: 0px;
+}
